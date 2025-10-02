@@ -2,6 +2,17 @@
 
 A React application demonstrating LaunchDarkly's multi-context feature flagging capabilities with real-time context updates and visual feedback.
 
+<div>
+    <a href="https://www.loom.com/share/12081fe5ab93474bad345bbb120913c7">
+      <p>LD Context Demo - 2 October 2025 - Watch Video</p>
+    </a>
+    <a href="https://www.loom.com/share/12081fe5ab93474bad345bbb120913c7">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/12081fe5ab93474bad345bbb120913c7-ca0143314b246758-full-play.gif">
+    </a>
+  </div>
+
+
+
 ## 🚀 Features
 
 ### Multi-Context Support
@@ -71,15 +82,11 @@ The app creates multi-contexts with the following structure:
     "key": "user@example.com",
     "name": "Display Name",
     "email": "user@example.com",
-    "customerStatus": "employee" | "bronze"
+    "customerStatus": "bronze"
   },
   "anonymousUser": {
     "key": "auto-generated-uuid",
     "anonymous": true
-  },
-  "office": {
-    "key": "auto-generated-uuid",
-    "location": "Remote" | "In Office"
   }
 }
 ```
