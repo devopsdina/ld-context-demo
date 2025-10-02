@@ -102,6 +102,7 @@ Create these boolean flags in your LaunchDarkly project:
 - **show-limited-time-offer**: Set up percentage rollout to 50% of users where `customerStatus` is `bronze` OR `silver`
 - **release-shiny-banner**: Target only `customerStatus` equals `gold`
 - **show-newsletter-signup**: Target all customer types or specific segments
+-- **enable-lunch-order**: Create a rule to only serve this button if the office location is In Office
 
 ### Real-time Updates
 - Profile changes trigger `ldClient.identify()` calls
